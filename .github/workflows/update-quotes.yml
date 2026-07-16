@@ -29,3 +29,4 @@ jobs:
           git add quotes.json
           git diff --cached --quiet || git commit -m "quotes update"
           git push
+
