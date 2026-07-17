@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: quotes
@@ -22,16 +23,24 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install --quiet yfinance
-      - name: fetch loop (~90 min, every ~6 min)
+      - name: fetch loop (~80 min, every ~6 min)
         run: |
           git config user.name "quotes-bot"
           git config user.email "actions@github.com"
-          for i in $(seq 1 15); do
+          for i in $(seq 1 14); do
             python fetch_quotes.py || true
             git add quotes.json
             if ! git diff --cached --quiet; then
               git commit -m "quotes update"
               git push || (git pull --rebase && git push)
             fi
-            [ "$i" -lt 15 ] && sleep 360
+            [ "$i" -lt 14 ] && sleep 360
           done
+      - name: chain next run while market is open
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          H=$(date -u +%H); D=$(date -u +%u)
+          if [ "$D" -le 5 ] && [ "$H" -ge 13 ] && [ "$H" -le 20 ]; then
+            gh workflow run update-quotes.yml -R ${{ github.repository }}
+          fi
