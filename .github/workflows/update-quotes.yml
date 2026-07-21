@@ -34,13 +34,16 @@ jobs:
               git commit -m "quotes update"
               git push || (git pull --rebase && git push)
             fi
-            [ "$i" -lt 14 ] && sleep 360
+            if [ "$i" -lt 14 ]; then sleep 360; fi
           done
+          echo "loop finished cleanly"
       - name: chain next run while market is open
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           H=$(date -u +%H); D=$(date -u +%u)
           if [ "$D" -le 5 ] && [ "$H" -ge 13 ] && [ "$H" -le 20 ]; then
-            gh workflow run update-quotes.yml -R ${{ github.repository }}
+            gh workflow run update-quotes.yml -R ${{ github.repository }} || echo "::warning::chain dispatch failed - cron will restart"
+          else
+            echo "market closed - no chain"
           fi
