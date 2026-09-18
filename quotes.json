@@ -1,29 +1,29 @@
 {
- "updated": "2026-09-18 00:08:27 UTC",
+ "updated": "2026-09-18 00:14:31 UTC",
  "quotes": {
-  "AMZN": {
-   "c": 251.19,
-   "pc": 247.8,
+  "ARM": {
+   "c": 264.9,
+   "pc": 248.01,
    "cur": "USD",
-   "sym": "AMZN"
-  },
-  "AAOI": {
-   "c": 98.06,
-   "pc": 99.46,
-   "cur": "USD",
-   "sym": "AAOI"
-  },
-  "ASML": {
-   "c": 1418.0,
-   "pc": 1395.800048828125,
-   "cur": "EUR",
-   "sym": "ASML.AS"
+   "sym": "ARM"
   },
   "2B70": {
    "c": 8.966,
    "pc": 8.755,
    "cur": "EUR",
    "sym": "2B70.DE"
+  },
+  "AMZN": {
+   "c": 251.19,
+   "pc": 247.8,
+   "cur": "USD",
+   "sym": "AMZN"
+  },
+  "ASTS": {
+   "c": 62.71,
+   "pc": 59.95,
+   "cur": "USD",
+   "sym": "ASTS"
   },
   "APP": {
    "c": 321.6,
@@ -37,17 +37,17 @@
    "cur": "USD",
    "sym": "AVGO"
   },
-  "ASTS": {
-   "c": 62.71,
-   "pc": 59.95,
+  "AAOI": {
+   "c": 98.06,
+   "pc": 99.46,
    "cur": "USD",
-   "sym": "ASTS"
+   "sym": "AAOI"
   },
-  "ARM": {
-   "c": 264.9,
-   "pc": 248.01,
-   "cur": "USD",
-   "sym": "ARM"
+  "ASML": {
+   "c": 1418.0,
+   "pc": 1395.800048828125,
+   "cur": "EUR",
+   "sym": "ASML.AS"
   },
   "BE": {
    "c": 280.76,
@@ -55,23 +55,11 @@
    "cur": "USD",
    "sym": "BE"
   },
-  "CEG": {
-   "c": 262.8,
-   "pc": 261.0,
-   "cur": "USD",
-   "sym": "CEG"
-  },
   "BWXT": {
    "c": 146.35,
    "pc": 149.49,
    "cur": "USD",
    "sym": "BWXT"
-  },
-  "CORZ": {
-   "c": 17.14,
-   "pc": 17.1101,
-   "cur": "USD",
-   "sym": "CORZ"
   },
   "CRWD": {
    "c": 245.7,
@@ -79,11 +67,11 @@
    "cur": "USD",
    "sym": "CRWD"
   },
-  "DDOG": {
-   "c": 236.0,
-   "pc": 231.8,
+  "CEG": {
+   "c": 262.8,
+   "pc": 261.0,
    "cur": "USD",
-   "sym": "DDOG"
+   "sym": "CEG"
   },
   "CRWV": {
    "c": 79.88,
@@ -91,11 +79,23 @@
    "cur": "USD",
    "sym": "CRWV"
   },
+  "CORZ": {
+   "c": 17.14,
+   "pc": 17.1101,
+   "cur": "USD",
+   "sym": "CORZ"
+  },
   "CRDO": {
    "c": 168.25,
    "pc": 166.3,
    "cur": "USD",
    "sym": "CRDO"
+  },
+  "DDOG": {
+   "c": 236.0,
+   "pc": 231.8,
+   "cur": "USD",
+   "sym": "DDOG"
   },
   "DELL": {
    "c": 588.4,
@@ -103,17 +103,11 @@
    "cur": "USD",
    "sym": "DELL"
   },
-  "FLNC": {
-   "c": 7.66,
-   "pc": 7.6099,
+  "GEV": {
+   "c": 924.93,
+   "pc": 937.0,
    "cur": "USD",
-   "sym": "FLNC"
-  },
-  "HIMS": {
-   "c": 27.89,
-   "pc": 28.0794,
-   "cur": "USD",
-   "sym": "HIMS"
+   "sym": "GEV"
   },
   "GOOG": {
    "c": 343.68,
@@ -121,17 +115,11 @@
    "cur": "USD",
    "sym": "GOOG"
   },
-  "GEV": {
-   "c": 924.93,
-   "pc": 937.0,
+  "HIMS": {
+   "c": 27.89,
+   "pc": 28.0794,
    "cur": "USD",
-   "sym": "GEV"
-  },
-  "JEDI": {
-   "c": 69.69,
-   "pc": 67.7,
-   "cur": "EUR",
-   "sym": "JEDI.DE"
+   "sym": "HIMS"
   },
   "ISRG": {
    "c": 383.54,
@@ -139,23 +127,29 @@
    "cur": "USD",
    "sym": "ISRG"
   },
+  "JEDI": {
+   "c": 69.69,
+   "pc": 67.7,
+   "cur": "EUR",
+   "sym": "JEDI.DE"
+  },
   "INTC": {
    "c": 108.8,
    "pc": 102.71,
    "cur": "USD",
    "sym": "INTC"
   },
+  "KTOS": {
+   "c": 47.66,
+   "pc": 47.68,
+   "cur": "USD",
+   "sym": "KTOS"
+  },
   "LITE": {
    "c": 893.61,
    "pc": 929.0,
    "cur": "USD",
    "sym": "LITE"
-  },
-  "META": {
-   "c": 682.31,
-   "pc": 678.68,
-   "cur": "USD",
-   "sym": "META"
   },
   "MELI": {
    "c": 1825.21,
@@ -169,35 +163,29 @@
    "cur": "USD",
    "sym": "LLY"
   },
-  "MSFT": {
-   "c": 497.75,
-   "pc": 492.52,
-   "cur": "USD",
-   "sym": "MSFT"
-  },
-  "KTOS": {
-   "c": 47.66,
-   "pc": 47.68,
-   "cur": "USD",
-   "sym": "KTOS"
-  },
-  "MU": {
-   "c": 977.5,
-   "pc": 934.5,
-   "cur": "USD",
-   "sym": "MU"
-  },
   "MRVL": {
    "c": 240.76,
    "pc": 233.95,
    "cur": "USD",
    "sym": "MRVL"
   },
-  "NVDA": {
-   "c": 219.34,
-   "pc": 215.68,
+  "FLNC": {
+   "c": 7.66,
+   "pc": 7.6099,
    "cur": "USD",
-   "sym": "NVDA"
+   "sym": "FLNC"
+  },
+  "META": {
+   "c": 682.31,
+   "pc": 678.68,
+   "cur": "USD",
+   "sym": "META"
+  },
+  "MU": {
+   "c": 977.5,
+   "pc": 934.5,
+   "cur": "USD",
+   "sym": "MU"
   },
   "NBIS": {
    "c": 217.99,
@@ -211,11 +199,17 @@
    "cur": "USD",
    "sym": "NOW"
   },
-  "ONDS": {
-   "c": 7.39,
-   "pc": 7.24,
+  "NOA3": {
+   "c": 9.2,
+   "pc": 8.856,
+   "cur": "EUR",
+   "sym": "NOA3.DE"
+  },
+  "NVDA": {
+   "c": 219.34,
+   "pc": 215.68,
    "cur": "USD",
-   "sym": "ONDS"
+   "sym": "NVDA"
   },
   "PLTR": {
    "c": 176.24,
@@ -223,11 +217,11 @@
    "cur": "USD",
    "sym": "PLTR"
   },
-  "NOA3": {
-   "c": 9.2,
-   "pc": 8.856,
-   "cur": "EUR",
-   "sym": "NOA3.DE"
+  "MSFT": {
+   "c": 497.75,
+   "pc": 492.52,
+   "cur": "USD",
+   "sym": "MSFT"
   },
   "QUTM": {
    "c": 25.38,
@@ -235,23 +229,23 @@
    "cur": "EUR",
    "sym": "QUTM.DE"
   },
-  "RCAT": {
-   "c": 7.095,
-   "pc": 7.23,
-   "cur": "USD",
-   "sym": "RCAT"
-  },
   "RBRK": {
    "c": 107.83,
    "pc": 105.29,
    "cur": "USD",
    "sym": "RBRK"
   },
-  "SGLN": {
-   "c": 6333.0,
-   "pc": 6270.0,
-   "cur": "GBp",
-   "sym": "SGLN.L"
+  "RCAT": {
+   "c": 7.095,
+   "pc": 7.23,
+   "cur": "USD",
+   "sym": "RCAT"
+  },
+  "ONDS": {
+   "c": 7.39,
+   "pc": 7.24,
+   "cur": "USD",
+   "sym": "ONDS"
   },
   "SMTC": {
    "c": 178.19,
@@ -259,17 +253,11 @@
    "cur": "USD",
    "sym": "SMTC"
   },
-  "SNOW": {
-   "c": 338.39,
-   "pc": 332.5,
-   "cur": "USD",
-   "sym": "SNOW"
-  },
-  "TEM": {
-   "c": 80.36,
-   "pc": 70.2,
-   "cur": "USD",
-   "sym": "TEM"
+  "SGLN": {
+   "c": 6333.0,
+   "pc": 6270.0,
+   "cur": "GBp",
+   "sym": "SGLN.L"
   },
   "UUUU": {
    "c": 11.98,
@@ -288,28 +276,25 @@
    "pc": 31.07,
    "cur": "USD",
    "sym": "ZETA"
+  },
+  "SNOW": {
+   "c": 338.39,
+   "pc": 332.5,
+   "cur": "USD",
+   "sym": "SNOW"
+  },
+  "TEM": {
+   "c": 80.36,
+   "pc": 70.2,
+   "cur": "USD",
+   "sym": "TEM"
   }
  },
  "proxied": [],
  "extra": {
-  "SNDK": {
-   "c": 1614.39,
-   "pc": 1538.49,
-   "cur": "USD"
-  },
   "AVAV": {
    "c": 163.38,
    "pc": 156.485,
-   "cur": "USD"
-  },
-  "LHX": {
-   "c": 250.46,
-   "pc": 250.74,
-   "cur": "USD"
-  },
-  "NOC": {
-   "c": 524.0,
-   "pc": 526.7,
    "cur": "USD"
   },
   "CCJ": {
@@ -317,14 +302,24 @@
    "pc": 91.1,
    "cur": "USD"
   },
+  "LHX": {
+   "c": 250.46,
+   "pc": 250.74,
+   "cur": "USD"
+  },
+  "SNDK": {
+   "c": 1614.39,
+   "pc": 1538.49,
+   "cur": "USD"
+  },
+  "NOC": {
+   "c": 524.0,
+   "pc": 526.7,
+   "cur": "USD"
+  },
   "RTX": {
    "c": 193.54,
    "pc": 197.27,
-   "cur": "USD"
-  },
-  "TSM": {
-   "c": 430.26,
-   "pc": 421.1105,
    "cur": "USD"
   },
   "LMT": {
@@ -332,9 +327,9 @@
    "pc": 537.3,
    "cur": "USD"
   },
-  "SOFI": {
-   "c": 16.73,
-   "pc": 16.95,
+  "TSM": {
+   "c": 430.26,
+   "pc": 421.1105,
    "cur": "USD"
   },
   "TSLA": {
@@ -342,9 +337,9 @@
    "pc": 359.86,
    "cur": "USD"
   },
-  "AAPL": {
-   "c": 337.0,
-   "pc": 333.43,
+  "SOFI": {
+   "c": 16.73,
+   "pc": 16.95,
    "cur": "USD"
   },
   "SPY": {
@@ -360,6 +355,11 @@
   "QQQ": {
    "c": 716.92,
    "pc": 709.46,
+   "cur": "USD"
+  },
+  "AAPL": {
+   "c": 337.0,
+   "pc": 333.43,
    "cur": "USD"
   },
   "ORCL": {
@@ -384,7 +384,7 @@
   }
  },
  "fx": {
-  "EURUSD": 1.1481056213378906,
-  "GBPEUR": 1.1634999513626099
+  "GBPEUR": 1.1634000539779663,
+  "EURUSD": 1.1482374668121338
  }
 }
